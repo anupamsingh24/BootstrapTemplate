@@ -1,6 +1,6 @@
 <footer>
-            <div class="row bg-black">
-                <div class="col-md-16" style="text-align:center">
+            <div class="row bg-custom">
+                <div class="col-sm-12" style="text-align:center">
                     <br>
                      &copy; 2016 AN OPENSOURCE PROJECT
                     <br>

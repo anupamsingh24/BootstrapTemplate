@@ -13,7 +13,7 @@
         <div id="navbar" class="navbar-collapse collapse">
           <ul class="nav navbar-nav">
             <li class="active"><a href="#">Home</a></li>
-            <li><a href="#css">CSS</a></li>
+            <li><a href="" id="myHref" target="_blank">CSS</a></li>
             <li><a href="#components">Components</a></li>
             <li><a href="#javascript">JavaScript</a></li>
           </ul>
@@ -21,3 +21,8 @@
       </div>
     </nav> 
 </div>
+<script>
+    $("#myHref").on('click', function() {
+    window.location = "../Views/css.php";
+});
+</script>

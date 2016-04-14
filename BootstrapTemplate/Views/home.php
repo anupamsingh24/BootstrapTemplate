@@ -7,28 +7,23 @@
         <meta name=keywords content="HTML, CSS, JS, JavaScript, framework, bootstrap, front-end, frontend, web development"> 
         <meta name="description" content="">
         <meta name="author" content="">
-        <title> Customize and download &middot; Bootstrap </title>
+
+        <title> Home - Bootstrap Usage Guide </title>
+
         <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
-        <script src="//netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script>
-        <link href=../bootstrap-3.3.6-dist/css/bootstrap.min.css rel=stylesheet>
-        <link href=../css/docs.min.css rel=stylesheet>
-        <script src=../bootstrap-3.3.6-dist/js/bootstrap.js></script>
+        <link href="../bootstrap-3.3.6-dist/css/bootstrap.min.css" rel=stylesheet>
+        <link href="../css/docs.min.css rel=stylesheet">
+        <script src="../bootstrap-3.3.6-dist/js/bootstrap.js"></script>
     </head>
     <body>
         <div class="container-fluid">
             <?php include '../Views/header.php'; ?>
-
-
-
-
-
             <div class="row">
                 <div class="col-sm-12 bg-custom">
                     <h1 style="text-align:center">Bootstrap Template</h1>
                     <p class="lead" style="text-align:center">A one stop spot to give you a detailed study of all the components and styles available in bootstrap.</p>
                 </div>
             </div>
-          <!-- Main component for a primary marketing message or call to action -->
             
             <div class=bs-docs-featurette> 
                 <div class=container>
@@ -56,20 +51,7 @@
             </div>
             <?php include '../Views/footer.php'; ?>
         </div>
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-        <script>window.jQuery || document.write('<script src="../../assets/js/vendor/jquery.min.js"><\/script>')</script>
-        <script src="../../dist/js/bootstrap.min.js"></script>
-        <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
-        <script src="../../assets/js/ie10-viewport-bug-workaround.js"></script>
-        <script>
-            $(document).ready(function () {
-            $('ul.nav > li').click(function (e) {
-            e.preventDefault();
-            $('ul.nav > li').removeClass('active');
-            $(this).addClass('active');                
-        });            
-    });
-        
-        
+        <script type="text/javascript">
+            document.querySelector('.navbar').querySelectorAll('li')[0].setAttribute('class','active');
         </script>
     </body>

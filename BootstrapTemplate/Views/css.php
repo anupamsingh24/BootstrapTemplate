@@ -795,5 +795,8 @@
             
             <?php include '../Views/footer.php'; ?>
         </div>
+        <script type="text/javascript">
+            document.querySelector('.navbar').querySelectorAll('li')[1].setAttribute('class','active');
+        </script>
     </body>
 </html>

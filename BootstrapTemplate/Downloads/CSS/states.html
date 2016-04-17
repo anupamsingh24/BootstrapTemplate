@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Basic Form in Bootstrap</title>
+  <meta charset="utf-8">
+  <!-- You need to be online for the webpage to run because it uses CDN to parse the bootstrap style -->
+  <!-- Otherwise download Bootstrap and change the location of the link accordingly -->
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+</head>
+<body>
+
+<div class="container">
+    
+    <form class="form-horizontal"> 
+        <div class="form-group"> <label class="col-sm-2 control-label">Email</label> 
+            <div class="col-sm-10"> 
+                <p class="form-control-static">email@example.com</p> 
+            </div> 
+       </div> 
+       <div class="form-group"> <label for="inputPassword" class="col-sm-2 control-label">Password</label> 
+            <div class="col-sm-10"> 
+                <input type="password" class="form-control" id="inputPassword" placeholder="Password"> 
+            </div> 
+       </div> 
+   </form>  
+   
+   
+   <br><br>
+   
+   
+   <form> 
+        <input class="form-control" id="disabledInput" type="text" placeholder="Disabled input here…" disabled="disabled"> 
+    </form> 
+         
+         
+   <br><br>
+   
+   
+    <form> 
+         <fieldset disabled="disabled"> 
+             <div class="form-group"> 
+                 <label for="disabledTextInput">Disabled input</label> 
+                 <input type="text" id="disabledTextInput" class="form-control" placeholder="Disabled input"> 
+             </div> 
+             <div class="form-group"> 
+                 <label for="disabledSelect">Disabled select menu</label> 
+                 <select id="disabledSelect" class="form-control"> 
+                     <option>Disabled select</option> 
+                 </select> 
+             </div> 
+             <div class="checkbox"> 
+                 <label> <input type="checkbox"> Can't check this </label> 
+             </div> 
+             <button type="submit" class="btn btn-primary">Submit</button> 
+        </fieldset> 
+     </form> 
+     
+     
+     
+     <br><br>
+     
+     
+     
+     <form> 
+        <input class="form-control" type="text" placeholder="Readonly input here…" readonly="readonly"> 
+    </form>
+    
+    
+</div>
+
+</body>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+</html>

@@ -8,12 +8,12 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
-          <a class="navbar-brand" href="#">Bootstrap Template</a>
+          <a class="navbar-brand" href="index.php">Bootstrap Template</a>
         </div>
         <div id="navbar" class="navbar-collapse collapse">
           <ul class="nav navbar-nav">
-            <li class="active"><a href="#">Home</a></li>
-            <li><a href="" id="myHref" target="_blank">CSS</a></li>
+            <li class="active" id="home"><a href="index.php">Home</a></li>
+            <li id="cssa"><a href="" id="myHref">CSS</a></li>
             <li><a href="#components">Components</a></li>
             <li><a href="#javascript">JavaScript</a></li>
           </ul>
@@ -23,6 +23,7 @@
 </div>
 <script>
     $("#myHref").on('click', function() {
-    window.location = "BootstrapTemplate/css.php";
+    window.location = "css.php";
+
 });
 </script>

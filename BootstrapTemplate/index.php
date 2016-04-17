@@ -10,13 +10,13 @@
         <title> Customize and download &middot; Bootstrap </title>
         <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
         <script src="//netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script>
-        <link href="BootstrapTemplate/bootstrap-3.3.6-dist/css/bootstrap.min.css" rel="stylesheet">
-        <link href="BootstrapTemplate/css/docs.min.css" rel="stylesheet">
-        <script src="BootstrapTemplate/bootstrap-3.3.6-dist/js/bootstrap.js"></script>
+        <link href="bootstrap-3.3.6-dist/css/bootstrap.min.css" rel="stylesheet">
+        <link href="css/docs.min.css" rel="stylesheet">
+        <script src="bootstrap-3.3.6-dist/js/bootstrap.js"></script>
     </head>
     <body>
         <div class="container-fluid">
-            <?php include 'BootstrapTemplate/header.php'; ?>
+            <?php include 'header.php'; ?>
 
 
 
@@ -37,17 +37,17 @@
                     <hr class=half-rule> 
                     <div class=row>
                         <div class=col-sm-4> 
-                            <img src="BootstrapTemplate/images/sass-less.png" alt="Sass and Less support" class="img-responsive"> 
+                            <img src="images/sass-less.png" alt="Sass and Less support" class="img-responsive"> 
                             <h3>Preprocessors</h3> 
                             <p>Bootstrap ships with vanilla CSS, but its source code utilizes the two most popular CSS preprocessors, <a href=../css/#less>Less</a> and <a href=../css/#sass>Sass</a>. Quickly get started with precompiled CSS or build on the source.</p> 
                         </div> 
                         <div class=col-sm-4> 
-                            <img src="BootstrapTemplate/images/devices.png" alt="Responsive across devices" class="img-responsive"> 
+                            <img src="images/devices.png" alt="Responsive across devices" class="img-responsive"> 
                             <h3>One framework, every device.</h3> 
                             <p>Bootstrap easily and efficiently scales your websites and applications with a single code base, from phones to tablets to desktops with CSS media queries.</p> 
                         </div> 
                         <div class=col-sm-4> 
-                            <img src="BootstrapTemplate/images/components.png" alt="Components" class="img-responsive" > 
+                            <img src="images/components.png" alt="Components" class="img-responsive" > 
                             <h3>Full of features</h3>
                             <p>With Bootstrap, you get extensive and beautiful documentation for common HTML elements, dozens of custom HTML and CSS components, and awesome jQuery plugins.</p> 
                         </div> 
@@ -71,7 +71,7 @@
             <span class="bg-white"><br><br></span>
             
             
-            <?php include 'BootstrapTemplate/footer.php'; ?>
+            <?php include 'footer.php'; ?>
         </div>
         
         

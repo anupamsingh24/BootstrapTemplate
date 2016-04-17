@@ -227,7 +227,7 @@
                             </code>
                         </pre>
                     </figure> 
-                    <a class="btn bg-custom" href="Downloads/CSS/basictable.html" download>DOWNLOAD FULL CODE</a>
+                    <a class="btn bg-custom" href="Downloads/CSS/stripedrows.html" download>DOWNLOAD FULL CODE</a>
                      
                      
                     <h2 id="tables-bordered">
@@ -303,7 +303,7 @@
                             </code>
                         </pre>
                     </figure> 
-                    <a class="btn bg-custom" href="Downloads/CSS/basictable.html" download>DOWNLOAD FULL CODE</a>
+                    <a class="btn bg-custom" href="Downloads/CSS/borderedtable.html" download>DOWNLOAD FULL CODE</a>
                     
                     <h2 id="tables-hover-rows"><a class="anchorjs-link " href="#tables-hover-rows" aria-label="Anchor link for: tables hover rows" data-anchorjs-icon="" style="font-family: anchorjs-icons; font-style: normal; font-variant: normal; font-weight: normal; position: absolute; margin-left: -1em; padding-right: 0.5em;"></a>Hover rows</h2> 
                     <p>Add <code>.table-hover</code> to enable a hover state on table rows within a <code>&lt;tbody&gt;</code>.</p> 
@@ -376,7 +376,7 @@
                           </code>
                       </pre>
                   </figure> 
-                  <a class="btn bg-custom" href="Downloads/CSS/basictable.html" download>DOWNLOAD FULL CODE</a>
+                  <a class="btn bg-custom" href="Downloads/CSS/hoverrows.html" download>DOWNLOAD FULL CODE</a>
                   
                   
                   <h2 id="tables-condensed"><a class="anchorjs-link " href="#tables-condensed" aria-label="Anchor link for: tables condensed" data-anchorjs-icon="" style="font-family: anchorjs-icons; font-style: normal; font-variant: normal; font-weight: normal; position: absolute; margin-left: -1em; padding-right: 0.5em;"></a>Condensed table</h2> 
@@ -446,7 +446,7 @@
                          </code>
                      </pre>
                  </figure>
-                  <a class="btn bg-custom" href="Downloads/CSS/basictable.html" download>DOWNLOAD FULL CODE</a>
+                  <a class="btn bg-custom" href="Downloads/CSS/condensedtable.html" download>DOWNLOAD FULL CODE</a>
                   
                   
                  <h2 id="tables-contextual-classes"><a class="anchorjs-link " href="#tables-contextual-classes" aria-label="Anchor link for: tables contextual classes" data-anchorjs-icon="" style="font-family: anchorjs-icons; font-style: normal; font-variant: normal; font-weight: normal; position: absolute; margin-left: -1em; padding-right: 0.5em;"></a>Contextual classes</h2> 
@@ -628,7 +628,7 @@
                </code>
           </pre>
     </figure> 
-     <a class="btn bg-custom" href="Downloads/CSS/basictable.html" download>DOWNLOAD FULL CODE</a>
+     <a class="btn bg-custom" href="Downloads/CSS/contextualclasses.html" download>DOWNLOAD FULL CODE</a>
      
      
      
@@ -782,7 +782,7 @@
          </code>
      </pre>
   </figure> 
-  <a class="btn bg-custom" href="Downloads/CSS/basictable.html" download>DOWNLOAD FULL CODE</a>
+  <a class="btn bg-custom" href="Downloads/CSS/responsivetable.html" download>DOWNLOAD FULL CODE</a>
 </div>
 
 
@@ -847,7 +847,7 @@
            </code>
       </pre>
    </figure> 
-   <a class="btn bg-custom" href="Downloads/CSS/basictable.html" download>DOWNLOAD FULL CODE</a>
+   <a class="btn bg-custom" href="Downloads/CSS/basicform.html" download>DOWNLOAD FULL CODE</a>
    
    
    
@@ -896,7 +896,7 @@
             </code>
         </pre>
     </figure>
-    <a class="btn bg-custom" href="Downloads/CSS/basictable.html" download>DOWNLOAD FULL CODE</a>
+    <a class="btn bg-custom" href="Downloads/CSS/inlineform.html" download>DOWNLOAD FULL CODE</a>
 
 
 
@@ -937,7 +937,7 @@
         </code>
      </pre>
 </figure>
-<a class="btn bg-custom" href="Downloads/CSS/basictable.html" download>DOWNLOAD FULL CODE</a>
+<a class="btn bg-custom" href="Downloads/CSS/inlineform.html" download>DOWNLOAD FULL CODE</a>
 
 
  
@@ -972,7 +972,7 @@
         </code>
     </pre>
 </figure> 
-<a class="btn bg-custom" href="Downloads/CSS/basictable.html" download>DOWNLOAD FULL CODE</a>
+<a class="btn bg-custom" href="Downloads/CSS/inlineform.html" download>DOWNLOAD FULL CODE</a>
 
 
 
@@ -1039,7 +1039,7 @@
           </code>
       </pre>
   </figure> 
-  <a class="btn bg-custom" href="Downloads/CSS/basictable.html" download>DOWNLOAD FULL CODE</a>
+  <a class="btn bg-custom" href="Downloads/CSS/horizontalform.html" download>DOWNLOAD FULL CODE</a>
 
 
 
@@ -1062,7 +1062,7 @@
          </code>
     </pre>
  </figure> 
- <a class="btn bg-custom" href="Downloads/CSS/basictable.html" download>DOWNLOAD FULL CODE</a>
+ <a class="btn bg-custom" href="Downloads/CSS/inputs.html" download>DOWNLOAD FULL CODE</a>
 
 
  
@@ -1085,7 +1085,7 @@
             </code>
          </pre>
      </figure> 
-<a class="btn bg-custom" href="Downloads/CSS/basictable.html" download>DOWNLOAD FULL CODE</a>
+<a class="btn bg-custom" href="Downloads/CSS/inputs.html" download>DOWNLOAD FULL CODE</a>
 
      
      
@@ -1125,7 +1125,7 @@
              </code>
           </pre>
      </figure> 
-     <a class="btn bg-custom" href="Downloads/CSS/basictable.html" download>DOWNLOAD FULL CODE</a>
+     <a class="btn bg-custom" href="Downloads/CSS/inputs.html" download>DOWNLOAD FULL CODE</a>
 
 
 <h4 id="inline-checkboxes-and-radios"><a class="anchorjs-link " href="#inline-checkboxes-and-radios" aria-label="Anchor link for: inline checkboxes and radios" data-anchorjs-icon="" style="font-family: anchorjs-icons; font-style: normal; font-variant: normal; font-weight: normal; position: absolute; margin-left: -1em; padding-right: 0.5em;"></a>Inline checkboxes and radios</h4> 
@@ -1161,7 +1161,7 @@
          </code>
      </pre>
  </figure>
- <a class="btn bg-custom" href="Downloads/CSS/basictable.html" download>DOWNLOAD FULL CODE</a>
+ <a class="btn bg-custom" href="Downloads/CSS/inputs.html" download>DOWNLOAD FULL CODE</a>
      
       
 
@@ -1192,7 +1192,7 @@
         </code>
     </pre>
 </figure>
-<a class="btn bg-custom" href="Downloads/CSS/basictable.html" download>DOWNLOAD FULL CODE</a>
+<a class="btn bg-custom" href="Downloads/CSS/inputs.html" download>DOWNLOAD FULL CODE</a>
 
 
 
@@ -1223,7 +1223,7 @@
         </code>
     </pre>
 </figure> 
-<a class="btn bg-custom" href="Downloads/CSS/basictable.html" download>DOWNLOAD FULL CODE</a>
+<a class="btn bg-custom" href="Downloads/CSS/inputs.html" download>DOWNLOAD FULL CODE</a>
 
 
 
@@ -1256,7 +1256,7 @@
          </code>
      </pre>
 </figure> 
-<a class="btn bg-custom" href="Downloads/CSS/basictable.html" download>DOWNLOAD FULL CODE</a>
+<a class="btn bg-custom" href="Downloads/CSS/inputs.html" download>DOWNLOAD FULL CODE</a>
 
 
 
@@ -1295,7 +1295,7 @@
         </code>
     </pre>
 </figure> 
-<a class="btn bg-custom" href="Downloads/CSS/basictable.html" download>DOWNLOAD FULL CODE</a>
+<a class="btn bg-custom" href="Downloads/CSS/states.html" download>DOWNLOAD FULL CODE</a>
 
 
 <h2 id="forms-control-focus"><a class="anchorjs-link " href="#forms-control-focus" aria-label="Anchor link for: forms control focus" data-anchorjs-icon="" style="font-family: anchorjs-icons; font-style: normal; font-variant: normal; font-weight: normal; position: absolute; margin-left: -1em; padding-right: 0.5em;"></a>Focus state</h2> 
@@ -1323,7 +1323,7 @@
          </code>
      </pre>
  </figure> 
- <a class="btn bg-custom" href="Downloads/CSS/basictable.html" download>DOWNLOAD FULL CODE</a>
+ <a class="btn bg-custom" href="Downloads/CSS/states.html" download>DOWNLOAD FULL CODE</a>
 
  
  
@@ -1382,7 +1382,7 @@
          </code>
      </pre>
 </figure> 
-<a class="btn bg-custom" href="Downloads/CSS/basictable.html" download>DOWNLOAD FULL CODE</a>
+<a class="btn bg-custom" href="Downloads/CSS/states.html" download>DOWNLOAD FULL CODE</a>
 
 
 <h2 id="forms-control-readonly"><a class="anchorjs-link " href="#forms-control-readonly" aria-label="Anchor link for: forms control readonly" data-anchorjs-icon="" style="font-family: anchorjs-icons; font-style: normal; font-variant: normal; font-weight: normal; position: absolute; margin-left: -1em; padding-right: 0.5em;"></a>Readonly state</h2> 
@@ -1402,7 +1402,7 @@
          </code>
      </pre>
  </figure>
- <a class="btn bg-custom" href="Downloads/CSS/basictable.html" download>DOWNLOAD FULL CODE</a>
+ <a class="btn bg-custom" href="Downloads/CSS/states.html" download>DOWNLOAD FULL CODE</a>
 
 </div>
               <span></span>       
@@ -1413,4 +1413,8 @@
             <?php include 'footer.php'; ?>
         </div>
     </body>
+    <script>
+        document.getElementById("cssa").addClass = "active";
+        document.getElementById("home").removeClass = "active";
+    </script>
 </html>

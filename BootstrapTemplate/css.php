@@ -1805,6 +1805,11 @@
     </body>
    <script type="text/javascript">
             document.querySelector('.navbar').querySelectorAll('li')[1].setAttribute('class','active');
-            document.querySelector('.navbar').querySelectorAll('li')[0].removeAttribute('class');
+            listElement = document.querySelector('.navbar').querySelectorAll('li');
+            for(var i=0; i < listElement.length; i++){
+                if(i != 1){
+                    listElement[i].removeAttribute('class');
+                }  
+            }
     </script>
 </html>

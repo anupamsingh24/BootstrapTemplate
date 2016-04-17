@@ -14,7 +14,7 @@
           <ul class="nav navbar-nav">
             <li class="active" id="home"><a href="index.php">Home</a></li>
             <li id="cssa"><a href="css.php" id="myHref">CSS</a></li>
-            <li><a href="#components">Components</a></li>
+            <li><a href="components.php">Components</a></li>
             <li><a href="#javascript">JavaScript</a></li>
           </ul>
         </div><!--/.nav-collapse -->

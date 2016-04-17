@@ -17,11 +17,6 @@
     <body>
         <div class="container-fluid">
             <?php include 'header.php'; ?>
-
-
-
-
-
             <div class="row">
                 <div class="col-sm-12 bg-custom">
                     <h1 style="text-align:center">Bootstrap Template</h1>
@@ -83,13 +78,13 @@
         <script src="../../dist/js/bootstrap.min.js"></script>
         <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
         <script src="../../assets/js/ie10-viewport-bug-workaround.js"></script>
-        <script>
+        <!--<script>
             $(document).ready(function () {
             $('ul.nav > li').click(function (e) {
             e.preventDefault();
             $('ul.nav > li').removeClass('active');
             $(this).addClass('active');                
-        });            
+        });     -->       
     });
         
         

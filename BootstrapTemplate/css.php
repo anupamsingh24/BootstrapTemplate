@@ -43,21 +43,31 @@
                                         <li><a href="#tables-responsive">Responsive tables</a></li> 
                                     </ul> 
                          </li> 
-                                <li> <a href="#forms">Forms</a> 
-                                    <ul class="nav"> 
-                                            <li><a href="#forms-example">Basic example</a></li> 
-                                            <li><a href="#forms-inline">Inline form</a></li> 
-                                            <li><a href="#forms-horizontal">Horizontal form</a></li> 
-                                            <li><a href="#forms-controls">Supported controls</a></li> 
-                                            <li><a href="#forms-controls-static">Static control</a></li> 
-                                            <li><a href="#forms-control-focus">Focus state</a></li> 
-                                            <li><a href="#forms-control-disabled">Disabled state</a></li> 
-                                            <li><a href="#forms-control-readonly">Readonly state</a></li> 
-                                            <li><a href="#forms-help-text">Help text</a></li> 
-                                            <li><a href="#forms-control-validation">Validation states</a></li> 
-                                            <li><a href="#forms-control-sizes">Control sizing</a></li> 
-                                        </ul>
-                                </li>       
+                         <li> <a href="#buttons">Buttons</a> 
+                            <ul class="nav"> 
+                                    <li><a href="#buttons-tags">Button tags</a></li> 
+                                    <li><a href="#buttons-options">Options</a></li> 
+                                    <li> <a href="#buttons-sizes">Sizes</a></li> 
+                                    <li><a href="#buttons-active">Active state</a></li> 
+                                    <li><a href="#buttons-disabled">Disabled state</a></li> 
+                            </ul>
+                        </li>
+                        <li> <a href="#forms">Forms</a> 
+                            <ul class="nav"> 
+                                    <li><a href="#forms-example">Basic example</a></li> 
+                                    <li><a href="#forms-inline">Inline form</a></li> 
+                                    <li><a href="#forms-horizontal">Horizontal form</a></li> 
+                                    <li><a href="#forms-controls">Supported controls</a></li> 
+                                    <li><a href="#forms-controls-static">Static control</a></li> 
+                                    <li><a href="#forms-control-focus">Focus state</a></li> 
+                                    <li><a href="#forms-control-disabled">Disabled state</a></li> 
+                                    <li><a href="#forms-control-readonly">Readonly state</a></li> 
+                                    <li><a href="#forms-help-text">Help text</a></li> 
+                                    <li><a href="#forms-control-validation">Validation states</a></li> 
+                                    <li><a href="#forms-control-sizes">Control sizing</a></li> 
+                            </ul>
+                        </li>
+                        </ul>       
                 </div>
                 </nav>
                 </div>
@@ -1404,8 +1414,388 @@
  </figure>
  <a class="btn bg-custom" href="Downloads/CSS/states.html" download>DOWNLOAD FULL CODE</a>
 
-</div>
-              <span></span>       
+<div class="bs-docs-section">
+        <h1 class="page-header" id="buttons"><a aria-label=
+        "Anchor link for: buttons" class="anchorjs-link" data-anchorjs-icon=""
+        href="#buttons" style=
+        "font-family: anchorjs-icons; font-style: normal; font-variant-ligatures: normal; font-variant-position: normal; font-variant-caps: normal; font-variant-numeric: normal; font-variant-alternates: normal; font-variant-east-asian: normal; font-weight: normal; position: absolute; margin-left: -1em; padding-right: 0.5em;">
+        </a>Buttons</h1>
+        <h2 id="buttons-tags"><a aria-label="Anchor link for: buttons tags"
+        class="anchorjs-link" data-anchorjs-icon="" href="#buttons-tags"
+        style="font-family: anchorjs-icons; font-style: normal; font-variant-ligatures: normal; font-variant-position: normal; font-variant-caps: normal; font-variant-numeric: normal; font-variant-alternates: normal; font-variant-east-asian: normal; font-weight: normal; position: absolute; margin-left: -1em; padding-right: 0.5em;">
+        </a>Button tags</h2>
+        <p>Use the button classes on an <code>&lt;a&gt;</code>,
+        <code>&lt;button&gt;</code>, or <code>&lt;input&gt;</code> element.</p>
+        <form class="bs-example" data-example-id="btn-tags">
+            <a class="btn btn-default" href="#" role="button">Link</a>
+            <button class="btn btn-default" type="submit">Button</button>
+            <input class="btn btn-default" type="button" value="Input">
+            <input class="btn btn-default" type="submit" value="Submit">
+        </form>
+        <figure class="highlight">
+            <pre><code class="language-html" data-lang="html"><span class=
+            "nt">&lt;a</span> <span class="na">class=</span><span class=
+            "s">"btn btn-default"</span> <span class=
+            "na">href=</span><span class="s">"#"</span> <span class=
+            "na">role=</span><span class="s">"button"</span><span class=
+            "nt">&gt;</span>Link<span class="nt">&lt;/a&gt;</span>
+<span class="nt">&lt;button</span> <span class="na">class=</span><span class=
+"s">"btn btn-default"</span> <span class="na">type=</span><span class=
+"s">"submit"</span><span class="nt">&gt;</span>Button<span class=
+"nt">&lt;/button&gt;</span>
+<span class="nt">&lt;input</span> <span class="na">class=</span><span class=
+"s">"btn btn-default"</span> <span class="na">type=</span><span class=
+"s">"button"</span> <span class="na">value=</span><span class=
+"s">"Input"</span><span class="nt">&gt;</span>
+<span class="nt">&lt;input</span> <span class="na">class=</span><span class=
+"s">"btn btn-default"</span> <span class="na">type=</span><span class=
+"s">"submit"</span> <span class="na">value=</span><span class=
+"s">"Submit"</span><span class="nt">&gt;</span></code></pre>
+        </figure>
+        <div class="bs-callout bs-callout-warning" id=
+        "callout-buttons-context-usage">
+            <h4>Context-specific usage</h4>
+            <p>While button classes can be used on <code>&lt;a&gt;</code> and
+            <code>&lt;button&gt;</code> elements, only
+            <code>&lt;button&gt;</code> elements are supported within our nav
+            and navbar components.</p>
+        </div>
+        <div class="bs-callout bs-callout-warning" id=
+        "callout-buttons-anchor-accessibility">
+            <h4>Links acting as buttons</h4>
+            <p>If the <code>&lt;a&gt;</code> elements are used to act as
+            buttons – triggering in-page functionality, rather than navigating
+            to another document or section within the current page – they
+            should also be given an appropriate <code>role="button"</code>.</p>
+        </div>
+        <div class="bs-callout bs-callout-warning" id=
+        "callout-buttons-ff-height">
+            <h4>Cross-browser rendering</h4>
+            <p>As a best practice, <strong>we highly recommend using the
+            <code>&lt;button&gt;</code> element whenever possible</strong> to
+            ensure matching cross-browser rendering.</p>
+            <p>Among other things, there's <a href=
+            "https://bugzilla.mozilla.org/show_bug.cgi?id=697451">a bug in
+            Firefox &lt;30</a> that prevents us from setting the
+            <code>line-height</code> of <code>&lt;input&gt;</code>-based
+            buttons, causing them to not exactly match the height of other
+            buttons on Firefox.</p>
+        </div>
+
+        <a class="btn bg-custom" href="Downloads/CSS/buttontags.html" download>DOWNLOAD FULL CODE</a>
+
+        <h2 id="buttons-options"><a aria-label=
+        "Anchor link for: buttons options" class="anchorjs-link"
+        data-anchorjs-icon="" href="#buttons-options" style=
+        "font-family: anchorjs-icons; font-style: normal; font-variant-ligatures: normal; font-variant-position: normal; font-variant-caps: normal; font-variant-numeric: normal; font-variant-alternates: normal; font-variant-east-asian: normal; font-weight: normal; position: absolute; margin-left: -1em; padding-right: 0.5em;">
+        </a>Options</h2>
+        <p>Use any of the available button classes to quickly create a styled
+        button.</p>
+        <div class="bs-example" data-example-id="btn-variants">
+            <button class="btn btn-default" type="button">Default</button>
+            <button class="btn btn-primary" type="button">Primary</button>
+            <button class="btn btn-success" type="button">Success</button>
+            <button class="btn btn-info" type="button">Info</button>
+            <button class="btn btn-warning" type="button">Warning</button>
+            <button class="btn btn-danger" type="button">Danger</button>
+            <button class="btn btn-link" type="button">Link</button>
+        </div>
+        <figure class="highlight">
+            <pre><code class="language-html" data-lang="html"><span class=
+            "c">&lt;!-- Standard button --&gt;</span>
+<span class="nt">&lt;button</span> <span class="na">type=</span><span class=
+"s">"button"</span> <span class="na">class=</span><span class=
+"s">"btn btn-default"</span><span class="nt">&gt;</span>Default<span class=
+"nt">&lt;/button&gt;</span>
+
+<span class=
+"c">&lt;!-- Provides extra visual weight and identifies the primary action in a set of buttons --&gt;</span>
+<span class="nt">&lt;button</span> <span class="na">type=</span><span class=
+"s">"button"</span> <span class="na">class=</span><span class=
+"s">"btn btn-primary"</span><span class="nt">&gt;</span>Primary<span class=
+"nt">&lt;/button&gt;</span>
+
+<span class="c">&lt;!-- Indicates a successful or positive action --&gt;</span>
+<span class="nt">&lt;button</span> <span class="na">type=</span><span class=
+"s">"button"</span> <span class="na">class=</span><span class=
+"s">"btn btn-success"</span><span class="nt">&gt;</span>Success<span class=
+"nt">&lt;/button&gt;</span>
+
+<span class=
+"c">&lt;!-- Contextual button for informational alert messages --&gt;</span>
+<span class="nt">&lt;button</span> <span class="na">type=</span><span class=
+"s">"button"</span> <span class="na">class=</span><span class=
+"s">"btn btn-info"</span><span class="nt">&gt;</span>Info<span class=
+"nt">&lt;/button&gt;</span>
+
+<span class=
+"c">&lt;!-- Indicates caution should be taken with this action --&gt;</span>
+<span class="nt">&lt;button</span> <span class="na">type=</span><span class=
+"s">"button"</span> <span class="na">class=</span><span class=
+"s">"btn btn-warning"</span><span class="nt">&gt;</span>Warning<span class=
+"nt">&lt;/button&gt;</span>
+
+<span class=
+"c">&lt;!-- Indicates a dangerous or potentially negative action --&gt;</span>
+<span class="nt">&lt;button</span> <span class="na">type=</span><span class=
+"s">"button"</span> <span class="na">class=</span><span class=
+"s">"btn btn-danger"</span><span class="nt">&gt;</span>Danger<span class=
+"nt">&lt;/button&gt;</span>
+
+<span class=
+"c">&lt;!-- Deemphasize a button by making it look like a link while maintaining button behavior --&gt;</span>
+<span class="nt">&lt;button</span> <span class="na">type=</span><span class=
+"s">"button"</span> <span class="na">class=</span><span class=
+"s">"btn btn-link"</span><span class="nt">&gt;</span>Link<span class=
+"nt">&lt;/button&gt;</span></code></pre>
+        </figure>
+        <div class="bs-callout bs-callout-warning" id=
+        "callout-buttons-color-accessibility">
+            <h4>Conveying meaning to assistive technologies</h4>
+            <p>Using color to add meaning to a button only provides a visual
+            indication, which will not be conveyed to users of assistive
+            technologies – such as screen readers. Ensure that information
+            denoted by the color is either obvious from the content itself (the
+            visible text of the button), or is included through alternative
+            means, such as additional text hidden with the
+            <code>.sr-only</code> class.</p>
+        </div>
+
+        <a class="btn bg-custom" href="Downloads/CSS/buttonoptions.html" download>DOWNLOAD FULL CODE</a>
+
+        <h2 id="buttons-sizes"><a aria-label="Anchor link for: buttons sizes"
+        class="anchorjs-link" data-anchorjs-icon="" href="#buttons-sizes"
+        style=
+        "font-family: anchorjs-icons; font-style: normal; font-variant-ligatures: normal; font-variant-position: normal; font-variant-caps: normal; font-variant-numeric: normal; font-variant-alternates: normal; font-variant-east-asian: normal; font-weight: normal; position: absolute; margin-left: -1em; padding-right: 0.5em;">
+        </a>Sizes</h2>
+        <p>Fancy larger or smaller buttons? Add <code>.btn-lg</code>,
+        <code>.btn-sm</code>, or <code>.btn-xs</code> for additional sizes.</p>
+        <div class="bs-example" data-example-id="btn-sizes">
+            <p><button class="btn btn-primary btn-lg" type="button">Large
+            button</button> <button class="btn btn-default btn-lg" type=
+            "button">Large button</button></p>
+            <p><button class="btn btn-primary" type="button">Default
+            button</button> <button class="btn btn-default" type=
+            "button">Default button</button></p>
+            <p><button class="btn btn-primary btn-sm" type="button">Small
+            button</button> <button class="btn btn-default btn-sm" type=
+            "button">Small button</button></p>
+            <p><button class="btn btn-primary btn-xs" type="button">Extra small
+            button</button> <button class="btn btn-default btn-xs" type=
+            "button">Extra small button</button></p>
+        </div>
+        <figure class="highlight">
+            <pre><code class="language-html" data-lang="html"><span class=
+            "nt">&lt;p&gt;</span>
+                  <span class="nt">&lt;button</span> <span class="na">type=</span><span class=
+                "s">"button"</span> <span class="na">class=</span><span class=
+                "s">"btn btn-primary btn-lg"</span><span class=
+                "nt">&gt;</span>Large button<span class="nt">&lt;/button&gt;</span>
+                  <span class="nt">&lt;button</span> <span class="na">type=</span><span class=
+                "s">"button"</span> <span class="na">class=</span><span class=
+                "s">"btn btn-default btn-lg"</span><span class=
+                "nt">&gt;</span>Large button<span class="nt">&lt;/button&gt;</span>
+                <span class="nt">&lt;/p&gt;</span>
+                <span class="nt">&lt;p&gt;</span>
+                  <span class="nt">&lt;button</span> <span class="na">type=</span><span class=
+                "s">"button"</span> <span class="na">class=</span><span class=
+                "s">"btn btn-primary"</span><span class=
+                "nt">&gt;</span>Default button<span class="nt">&lt;/button&gt;</span>
+                  <span class="nt">&lt;button</span> <span class="na">type=</span><span class=
+                "s">"button"</span> <span class="na">class=</span><span class=
+                "s">"btn btn-default"</span><span class=
+                "nt">&gt;</span>Default button<span class="nt">&lt;/button&gt;</span>
+                <span class="nt">&lt;/p&gt;</span>
+                <span class="nt">&lt;p&gt;</span>
+                  <span class="nt">&lt;button</span> <span class="na">type=</span><span class=
+                "s">"button"</span> <span class="na">class=</span><span class=
+                "s">"btn btn-primary btn-sm"</span><span class=
+                "nt">&gt;</span>Small button<span class="nt">&lt;/button&gt;</span>
+                  <span class="nt">&lt;button</span> <span class="na">type=</span><span class=
+                "s">"button"</span> <span class="na">class=</span><span class=
+                "s">"btn btn-default btn-sm"</span><span class=
+                "nt">&gt;</span>Small button<span class="nt">&lt;/button&gt;</span>
+                <span class="nt">&lt;/p&gt;</span>
+                <span class="nt">&lt;p&gt;</span>
+                  <span class="nt">&lt;button</span> <span class="na">type=</span><span class=
+                "s">"button"</span> <span class="na">class=</span><span class=
+                "s">"btn btn-primary btn-xs"</span><span class=
+                "nt">&gt;</span>Extra small button<span class="nt">&lt;/button&gt;</span>
+                  <span class="nt">&lt;button</span> <span class="na">type=</span><span class=
+                "s">"button"</span> <span class="na">class=</span><span class=
+                "s">"btn btn-default btn-xs"</span><span class=
+                "nt">&gt;</span>Extra small button<span class="nt">&lt;/button&gt;</span>
+                <span class="nt">&lt;/p&gt;</span></code></pre>
+        </figure>
+        <p>Create block level buttons—those that span the full width of a
+        parent— by adding <code>.btn-block</code>.</p>
+        <div class="bs-example" data-example-id="block-btns">
+            <div class="well center-block" style="max-width:400px">
+                <button class="btn btn-primary btn-lg btn-block" type=
+                "button">Block level button</button> <button class=
+                "btn btn-default btn-lg btn-block" type="button">Block level
+                button</button>
+            </div>
+        </div>
+        <figure class="highlight">
+                <pre><code class="language-html" data-lang="html"><span class=
+                "nt">&lt;button</span> <span class="na">type=</span><span class=
+                "s">"button"</span> <span class="na">class=</span><span class=
+                "s">"btn btn-primary btn-lg btn-block"</span><span class=
+                "nt">&gt;</span>Block level button<span class=
+                "nt">&lt;/button&gt;</span>
+                <span class="nt">&lt;button</span> <span class="na">type=</span><span class=
+                "s">"button"</span> <span class="na">class=</span><span class=
+                "s">"btn btn-default btn-lg btn-block"</span><span class=
+                "nt">&gt;</span>Block level button<span class=
+                "nt">&lt;/button&gt;</span></code></pre>
+        </figure>
+
+        <a class="btn bg-custom" href="Downloads/CSS/buttonsizes.html" download>DOWNLOAD FULL CODE</a>
+
+        <h2 id="buttons-active"><a aria-label="Anchor link for: buttons active"
+        class="anchorjs-link" data-anchorjs-icon="" href="#buttons-active"
+        style=
+        "font-family: anchorjs-icons; font-style: normal; font-variant-ligatures: normal; font-variant-position: normal; font-variant-caps: normal; font-variant-numeric: normal; font-variant-alternates: normal; font-variant-east-asian: normal; font-weight: normal; position: absolute; margin-left: -1em; padding-right: 0.5em;">
+        </a>Active state</h2>
+        <p>Buttons will appear pressed (with a darker background, darker
+        border, and inset shadow) when active. For <code>&lt;button&gt;</code>
+        elements, this is done via <code>:active</code>. For
+        <code>&lt;a&gt;</code> elements, it's done with <code>.active</code>.
+        However, you may use <code>.active</code> on
+        <code>&lt;button&gt;</code>s (and include the
+        <code>aria-pressed="true"</code> attribute) should you need to
+        replicate the active state programmatically.</p>
+        <h3 id="button-element"><a aria-label="Anchor link for: button element"
+        class="anchorjs-link" data-anchorjs-icon="" href="#button-element"
+        style=
+        "font-family: anchorjs-icons; font-style: normal; font-variant-ligatures: normal; font-variant-position: normal; font-variant-caps: normal; font-variant-numeric: normal; font-variant-alternates: normal; font-variant-east-asian: normal; font-weight: normal; position: absolute; margin-left: -1em; padding-right: 0.5em;">
+        </a>Button element</h3>
+        <p>No need to add <code>:active</code> as it's a pseudo-class, but if
+        you need to force the same appearance, go ahead and add
+        <code>.active</code>.</p>
+        <p class="bs-example" data-example-id="active-button-btns">
+        <button class="btn btn-primary btn-lg active" type="button">Primary
+        button</button> <button class="btn btn-default btn-lg active" type=
+        "button">Button</button></p>
+        <figure class="highlight">
+            <pre><code class="language-html" data-lang="html"><span class=
+            "nt">&lt;button</span> <span class="na">type=</span><span class=
+            "s">"button"</span> <span class="na">class=</span><span class=
+            "s">"btn btn-primary btn-lg active"</span><span class=
+            "nt">&gt;</span>Primary button<span class=
+            "nt">&lt;/button&gt;</span>
+        <span class="nt">&lt;button</span> <span class="na">type=</span><span class=
+        "s">"button"</span> <span class="na">class=</span><span class=
+        "s">"btn btn-default btn-lg active"</span><span class=
+        "nt">&gt;</span>Button<span class="nt">&lt;/button&gt;</span></code></pre>
+        </figure>
+        <h3 id="anchor-element"><a aria-label="Anchor link for: anchor element"
+        class="anchorjs-link" data-anchorjs-icon="" href="#anchor-element"
+        style=
+        "font-family: anchorjs-icons; font-style: normal; font-variant-ligatures: normal; font-variant-position: normal; font-variant-caps: normal; font-variant-numeric: normal; font-variant-alternates: normal; font-variant-east-asian: normal; font-weight: normal; position: absolute; margin-left: -1em; padding-right: 0.5em;">
+        </a>Anchor element</h3>
+        <p>Add the <code>.active</code> class to <code>&lt;a&gt;</code>
+        buttons.</p>
+        <p class="bs-example" data-example-id="active-anchor-btns"><a class=
+        "btn btn-primary btn-lg active" href="#" role="button">Primary link</a>
+        <a class="btn btn-default btn-lg active" href="#" role=
+        "button">Link</a></p>
+        <figure class="highlight">
+            <pre><code class="language-html" data-lang="html"><span class=
+            "nt">&lt;a</span> <span class="na">href=</span><span class=
+            "s">"#"</span> <span class="na">class=</span><span class=
+            "s">"btn btn-primary btn-lg active"</span> <span class=
+            "na">role=</span><span class="s">"button"</span><span class=
+            "nt">&gt;</span>Primary link<span class="nt">&lt;/a&gt;</span>
+            <span class="nt">&lt;a</span> <span class="na">href=</span><span class=
+            "s">"#"</span> <span class="na">class=</span><span class=
+            "s">"btn btn-default btn-lg active"</span> <span class=
+            "na">role=</span><span class="s">"button"</span><span class=
+            "nt">&gt;</span>Link<span class="nt">&lt;/a&gt;</span></code></pre>
+        </figure>
+        <h2 id="buttons-disabled"><a aria-label=
+        "Anchor link for: buttons disabled" class="anchorjs-link"
+        data-anchorjs-icon="" href="#buttons-disabled" style=
+        "font-family: anchorjs-icons; font-style: normal; font-variant-ligatures: normal; font-variant-position: normal; font-variant-caps: normal; font-variant-numeric: normal; font-variant-alternates: normal; font-variant-east-asian: normal; font-weight: normal; position: absolute; margin-left: -1em; padding-right: 0.5em;">
+        </a>Disabled state</h2>
+        <p>Make buttons look unclickable by fading them back with
+        <code>opacity</code>.</p>
+        <h3 id="button-element-1"><a aria-label=
+        "Anchor link for: button element 1" class="anchorjs-link"
+        data-anchorjs-icon="" href="#button-element-1" style=
+        "font-family: anchorjs-icons; font-style: normal; font-variant-ligatures: normal; font-variant-position: normal; font-variant-caps: normal; font-variant-numeric: normal; font-variant-alternates: normal; font-variant-east-asian: normal; font-weight: normal; position: absolute; margin-left: -1em; padding-right: 0.5em;">
+        </a>Button element</h3>
+        <p>Add the <code>disabled</code> attribute to
+        <code>&lt;button&gt;</code> buttons.</p>
+        <p class="bs-example" data-example-id="disabled-button-btns">
+        <button class="btn btn-primary btn-lg" disabled="disabled" type=
+        "button">Primary button</button> <button class="btn btn-default btn-lg"
+        disabled="disabled" type="button">Button</button></p>
+        <figure class="highlight">
+            <pre><code class="language-html" data-lang="html"><span class=
+            "nt">&lt;button</span> <span class="na">type=</span><span class=
+            "s">"button"</span> <span class="na">class=</span><span class=
+            "s">"btn btn-lg btn-primary"</span> <span class=
+            "na">disabled=</span><span class="s">"disabled"</span><span class=
+            "nt">&gt;</span>Primary button<span class=
+            "nt">&lt;/button&gt;</span>
+            <span class="nt">&lt;button</span> <span class="na">type=</span><span class=
+            "s">"button"</span> <span class="na">class=</span><span class=
+            "s">"btn btn-default btn-lg"</span> <span class=
+            "na">disabled=</span><span class="s">"disabled"</span><span class=
+            "nt">&gt;</span>Button<span class="nt">&lt;/button&gt;</span></code></pre>
+        </figure>
+        <div class="bs-callout bs-callout-danger" id=
+        "callout-buttons-ie-disabled">
+            <h4>Cross-browser compatibility</h4>
+            <p>If you add the <code>disabled</code> attribute to a
+            <code>&lt;button&gt;</code>, Internet Explorer 9 and below will
+            render text gray with a nasty text-shadow that we cannot fix.</p>
+        </div>
+        <h3 id="anchor-element-1"><a aria-label=
+        "Anchor link for: anchor element 1" class="anchorjs-link"
+        data-anchorjs-icon="" href="#anchor-element-1" style=
+        "font-family: anchorjs-icons; font-style: normal; font-variant-ligatures: normal; font-variant-position: normal; font-variant-caps: normal; font-variant-numeric: normal; font-variant-alternates: normal; font-variant-east-asian: normal; font-weight: normal; position: absolute; margin-left: -1em; padding-right: 0.5em;">
+        </a>Anchor element</h3>
+        <p>Add the <code>.disabled</code> class to <code>&lt;a&gt;</code>
+        buttons.</p>
+        <p class="bs-example" data-example-id="disabled-anchor-btns"><a class=
+        "btn btn-primary btn-lg disabled" href="#" role="button">Primary
+        link</a> <a class="btn btn-default btn-lg disabled" href="#" role=
+        "button">Link</a></p>
+        <figure class="highlight">
+            <pre><code class="language-html" data-lang="html"><span class=
+            "nt">&lt;a</span> <span class="na">href=</span><span class=
+            "s">"#"</span> <span class="na">class=</span><span class=
+            "s">"btn btn-primary btn-lg disabled"</span> <span class=
+            "na">role=</span><span class="s">"button"</span><span class=
+            "nt">&gt;</span>Primary link<span class="nt">&lt;/a&gt;</span>
+            <span class="nt">&lt;a</span> <span class="na">href=</span><span class=
+            "s">"#"</span> <span class="na">class=</span><span class=
+            "s">"btn btn-default btn-lg disabled"</span> <span class=
+            "na">role=</span><span class="s">"button"</span><span class=
+            "nt">&gt;</span>Link<span class="nt">&lt;/a&gt;</span></code></pre>
+        </figure>
+        <p>We use <code>.disabled</code> as a utility class here, similar to
+        the common <code>.active</code> class, so no prefix is required.</p>
+        <div class="bs-callout bs-callout-warning" id=
+        "callout-buttons-disabled-anchor">
+            <h4>Link functionality caveat</h4>
+            <p>This class uses <code>pointer-events: none</code> to try to
+            disable the link functionality of <code>&lt;a&gt;</code>s, but that
+            CSS property is not yet standardized and isn't fully supported in
+            Opera 18 and below, or in Internet Explorer 11. In addition, even
+            in browsers that do support <code>pointer-events: none</code>,
+            keyboard navigation remains unaffected, meaning that sighted
+            keyboard users and users of assistive technologies will still be
+            able to activate these links. So to be safe, use custom JavaScript
+            to disable such links.</p>
+        </div>
+        <a class="btn bg-custom" href="Downloads/CSS/buttonstates.html" download>DOWNLOAD FULL CODE</a><br>
+    </div>
+
+</div>      
                     
                 </div>
             </div>
@@ -1413,8 +1803,8 @@
             <?php include 'footer.php'; ?>
         </div>
     </body>
-    <script>
-        document.getElementById("cssa").addClass = "active";
-        document.getElementById("home").removeClass = "active";
+   <script type="text/javascript">
+            document.querySelector('.navbar').querySelectorAll('li')[1].setAttribute('class','active');
+            document.querySelector('.navbar').querySelectorAll('li')[0].removeAttribute('class');
     </script>
 </html>

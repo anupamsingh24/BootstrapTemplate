@@ -174,6 +174,8 @@
               <span class="nt">&lt;/ul&gt;</span>
             <span class="nt">&lt;/nav&gt;</span></code></pre>
 						</figure>
+						<a class="btn bg-custom" href="Downloads/COMPONENTS/.html" download>DOWNLOAD FULL CODE</a>
+
 						<h3 id="disabled-and-active-states">
 							<a aria-label="Anchor link for: disabled and active states" class="anchorjs-link" data-anchorjs-icon="" href="#disabled-and-active-states" style="font-family: anchorjs-icons; font-style: normal; font-variant-ligatures: normal; font-variant-position: normal; font-variant-caps: normal; font-variant-numeric: normal; font-variant-alternates: normal; font-variant-east-asian: normal; font-weight: normal; position: absolute; margin-left: -1em; padding-right: 0.5em;"></a>Disabled and active states
 						</h3>
@@ -234,6 +236,8 @@
               <span class="nt">&lt;/ul&gt;</span>
             <span class="nt">&lt;/nav&gt;</span></code></pre>
 						</figure>
+						<a class="btn bg-custom" href="Downloads/COMPONENTS/.html" download>DOWNLOAD FULL CODE</a>
+
 						<h3 id="sizing">
 							<a aria-label="Anchor link for: sizing" class="anchorjs-link" data-anchorjs-icon="" href="#sizing" style="font-family: anchorjs-icons; font-style: normal; font-variant-ligatures: normal; font-variant-position: normal; font-variant-caps: normal; font-variant-numeric: normal; font-variant-alternates: normal; font-variant-east-asian: normal; font-weight: normal; position: absolute; margin-left: -1em; padding-right: 0.5em;"></a>Sizing
 						</h3>
@@ -322,6 +326,8 @@
             <span class="nt">&lt;nav&gt;&lt;ul</span> <span class="na">class=</span><span class="s">"pagination"</span><span class="nt">&gt;</span>...<span class="nt">&lt;/ul&gt;&lt;/nav&gt;</span>
             <span class="nt">&lt;nav&gt;&lt;ul</span> <span class="na">class=</span><span class="s">"pagination pagination-sm"</span><span class="nt">&gt;</span>...<span class="nt">&lt;/ul&gt;&lt;/nav&gt;</span></code></pre>
 						</figure>
+						<a class="btn bg-custom" href="Downloads/COMPONENTS/.html" download>DOWNLOAD FULL CODE</a>
+
 						<h2 id="pagination-pager">
 							<a aria-label="Anchor link for: pagination pager" class="anchorjs-link" data-anchorjs-icon="" href="#pagination-pager" style="font-family: anchorjs-icons; font-style: normal; font-variant-ligatures: normal; font-variant-position: normal; font-variant-caps: normal; font-variant-numeric: normal; font-variant-alternates: normal; font-variant-east-asian: normal; font-weight: normal; position: absolute; margin-left: -1em; padding-right: 0.5em;"></a>Pager
 						</h2>
@@ -354,6 +360,8 @@
               <span class="nt">&lt;/ul&gt;</span>
             <span class="nt">&lt;/nav&gt;</span></code></pre>
 						</figure>
+						<a class="btn bg-custom" href="Downloads/COMPONENTS/.html" download>DOWNLOAD FULL CODE</a>
+
 						<h3 id="aligned-links">
 							<a aria-label="Anchor link for: aligned links" class="anchorjs-link" data-anchorjs-icon="" href="#aligned-links" style="font-family: anchorjs-icons; font-style: normal; font-variant-ligatures: normal; font-variant-position: normal; font-variant-caps: normal; font-variant-numeric: normal; font-variant-alternates: normal; font-variant-east-asian: normal; font-weight: normal; position: absolute; margin-left: -1em; padding-right: 0.5em;"></a>Aligned links
 						</h3>
@@ -380,6 +388,8 @@
               <span class="nt">&lt;/ul&gt;</span>
             <span class="nt">&lt;/nav&gt;</span></code></pre>
 						</figure>
+						<a class="btn bg-custom" href="Downloads/COMPONENTS/.html" download>DOWNLOAD FULL CODE</a>
+
 						<h3 id="optional-disabled-state">
 							<a aria-label="Anchor link for: optional disabled state" class="anchorjs-link" data-anchorjs-icon="" href="#optional-disabled-state" style="font-family: anchorjs-icons; font-style: normal; font-variant-ligatures: normal; font-variant-position: normal; font-variant-caps: normal; font-variant-numeric: normal; font-variant-alternates: normal; font-variant-east-asian: normal; font-weight: normal; position: absolute; margin-left: -1em; padding-right: 0.5em;"></a>Optional disabled state
 						</h3>
@@ -405,8 +415,10 @@
                 <span class="nt">&lt;li</span> <span class="na">class=</span><span class="s">"next"</span><span class="nt">&gt;&lt;a</span> <span class="na">href=</span><span class="s">"#"</span><span class="nt">&gt;</span>Newer <span class="nt">&lt;span</span> <span class="na">aria-hidden=</span><span class="s">"true"</span><span class="nt">&gt;</span><span class="ni">&amp;rarr;</span><span class="nt">&lt;/span&gt;&lt;/a&gt;&lt;/li&gt;</span>
               <span class="nt">&lt;/ul&gt;</span>
             <span class="nt">&lt;/nav&gt;</span></code></pre>
-						</figure><a class="btn bg-custom" href="Downloads/CSS/pagination.html">DOWNLOAD FULL CODE</a><br>
+						</figure>
+						<a class="btn bg-custom" href="Downloads/CSS/pagination.html">DOWNLOAD FULL CODE</a><br>
 					</div>
+
 					<div class="bs-docs-section">
 						<h1 class="page-header" id="dropdowns">
 							Dropdowns
@@ -451,6 +463,7 @@ Dropdown
 <span class="nt">&lt;/ul&gt;</span>
 <span class="nt">&lt;/div&gt;</span></code></pre>
 						</figure>
+						<a class="btn bg-custom" href="Downloads/COMPONENTS/.html" download>DOWNLOAD FULL CODE</a>
 						<p>
 							Dropdown menus can be changed to expand upwards (instead of downwards) by adding <code>.dropup</code> to the parent.
 						</p>
@@ -485,6 +498,8 @@ Dropup
 <span class="nt">&lt;/ul&gt;</span>
 <span class="nt">&lt;/div&gt;</span></code></pre>
 						</figure>
+						<a class="btn bg-custom" href="Downloads/COMPONENTS/.html" download>DOWNLOAD FULL CODE</a>
+
 						<h2 id="dropdowns-alignment">
 							Alignment
 						</h2>
@@ -512,6 +527,8 @@ Dropup
 ...
 <span class="nt">&lt;/ul&gt;</span></code></pre>
 						</figure>
+						<a class="btn bg-custom" href="Downloads/COMPONENTS/.html" download>DOWNLOAD FULL CODE</a>
+
 						<h2 id="dropdowns-headers">
 							Headers
 						</h2>
@@ -548,6 +565,8 @@ Dropup
 ...
 <span class="nt">&lt;/ul&gt;</span></code></pre>
 						</figure>
+						<a class="btn bg-custom" href="Downloads/COMPONENTS/.html" download>DOWNLOAD FULL CODE</a>
+
 						<h2 id="dropdowns-divider">
 							Divider
 						</h2>
@@ -581,6 +600,8 @@ Dropup
 ...
 <span class="nt">&lt;/ul&gt;</span></code></pre>
 						</figure>
+						<a class="btn bg-custom" href="Downloads/COMPONENTS/.html" download>DOWNLOAD FULL CODE</a>
+
 						<h2 id="dropdowns-disabled">
 							Disabled menu items
 						</h2>
@@ -607,6 +628,8 @@ Dropup
 							<pre><code class="language-html" data-lang="html"><span class="nt">&lt;ul</span> <span class="na">class=</span><span class="s">"dropdown-menu"</span> <span class="na">aria-labelledby=</span><span class="s">"dropdownMenu4"</span><span class="nt">&gt;</span>
         </code></pre>
 						</figure>
+						<a class="btn bg-custom" href="Downloads/COMPONENTS/.html" download>DOWNLOAD FULL CODE</a>
+
 					</div>
 					<div class="bs-docs-section">
 						<h1 class="page-header" id="btn-groups">
@@ -658,6 +681,8 @@ Dropup
 <span class="nt">&lt;button</span> <span class="na">type=</span><span class="s">"button"</span> <span class="na">class=</span><span class="s">"btn btn-default"</span><span class="nt">&gt;</span>Right<span class="nt">&lt;/button&gt;</span>
 <span class="nt">&lt;/div&gt;</span></code></pre>
 						</figure>
+						<a class="btn bg-custom" href="Downloads/COMPONENTS/.html" download>DOWNLOAD FULL CODE</a>
+
 						<h2 id="btn-groups-toolbar">
 							<a aria-label="Anchor link for: btn groups toolbar" class="anchorjs-link" data-anchorjs-icon="" href="#btn-groups-toolbar" style="font-family: anchorjs-icons; font-style: normal; font-variant: normal; font-weight: normal; position: absolute; margin-left: -1em; padding-right: 0.5em;"></a>Button toolbar
 						</h2>
@@ -687,6 +712,8 @@ Dropup
 <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"btn-group"</span> <span class="na">role=</span><span class="s">"group"</span> <span class="na">aria-label=</span><span class="s">"..."</span><span class="nt">&gt;</span>...<span class="nt">&lt;/div&gt;</span>
 <span class="nt">&lt;/div&gt;</span></code></pre>
 						</figure>
+						<a class="btn bg-custom" href="Downloads/COMPONENTS/.html" download>DOWNLOAD FULL CODE</a>
+
 						<h2 id="btn-groups-sizing">
 							<a aria-label="Anchor link for: btn groups sizing" class="anchorjs-link" data-anchorjs-icon="" href="#btn-groups-sizing" style="font-family: anchorjs-icons; font-style: normal; font-variant: normal; font-weight: normal; position: absolute; margin-left: -1em; padding-right: 0.5em;"></a>Sizing
 						</h2>
@@ -716,6 +743,8 @@ Dropup
 <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"btn-group btn-group-sm"</span> <span class="na">role=</span><span class="s">"group"</span> <span class="na">aria-label=</span><span class="s">"..."</span><span class="nt">&gt;</span>...<span class="nt">&lt;/div&gt;</span>
 <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"btn-group btn-group-xs"</span> <span class="na">role=</span><span class="s">"group"</span> <span class="na">aria-label=</span><span class="s">"..."</span><span class="nt">&gt;</span>...<span class="nt">&lt;/div&gt;</span></code></pre>
 						</figure>
+						<a class="btn bg-custom" href="Downloads/COMPONENTS/.html" download>DOWNLOAD FULL CODE</a>
+
 						<h2 id="btn-groups-nested">
 							<a aria-label="Anchor link for: btn groups nested" class="anchorjs-link" data-anchorjs-icon="" href="#btn-groups-nested" style="font-family: anchorjs-icons; font-style: normal; font-variant: normal; font-weight: normal; position: absolute; margin-left: -1em; padding-right: 0.5em;"></a>Nesting
 						</h2>
@@ -758,6 +787,8 @@ Dropup
 <span class="nt">&lt;/div&gt;</span>
 <span class="nt">&lt;/div&gt;</span></code></pre>
 						</figure>
+						<a class="btn bg-custom" href="Downloads/COMPONENTS/.html" download>DOWNLOAD FULL CODE</a>
+
 						<h2 id="btn-groups-vertical">
 							<a aria-label="Anchor link for: btn groups vertical" class="anchorjs-link" data-anchorjs-icon="" href="#btn-groups-vertical" style="font-family: anchorjs-icons; font-style: normal; font-variant: normal; font-weight: normal; position: absolute; margin-left: -1em; padding-right: 0.5em;"></a>Vertical variation
 						</h2>
@@ -821,6 +852,8 @@ Dropup
 ...
 <span class="nt">&lt;/div&gt;</span></code></pre>
 						</figure>
+						<a class="btn bg-custom" href="Downloads/COMPONENTS/.html" download>DOWNLOAD FULL CODE</a>
+
 						<h2 id="btn-groups-justified">
 							<a aria-label="Anchor link for: btn groups justified" class="anchorjs-link" data-anchorjs-icon="" href="#btn-groups-justified" style="font-family: anchorjs-icons; font-style: normal; font-variant: normal; font-weight: normal; position: absolute; margin-left: -1em; padding-right: 0.5em;"></a>Justified button groups
 						</h2>
@@ -886,6 +919,8 @@ Dropup
 ...
 <span class="nt">&lt;/div&gt;</span></code></pre>
 						</figure>
+						<a class="btn bg-custom" href="Downloads/COMPONENTS/.html" download>DOWNLOAD FULL CODE</a>
+
 						<div class="bs-callout bs-callout-warning" id="callout-btn-group-anchor-btn">
 							<h4>
 								Links acting as buttons
@@ -929,6 +964,8 @@ Dropup
 <span class="nt">&lt;/div&gt;</span>
 <span class="nt">&lt;/div&gt;</span></code></pre>
 						</figure>
+						<a class="btn bg-custom" href="Downloads/COMPONENTS/.html" download>DOWNLOAD FULL CODE</a>
+
 					</div>
 					<div class="bs-docs-section">
 						<h1 class="page-header" id="btn-dropdowns">
@@ -1079,6 +1116,8 @@ Action <span class="nt">&lt;span</span> <span class="na">class=</span><span clas
 <span class="nt">&lt;/ul&gt;</span>
 <span class="nt">&lt;/div&gt;</span></code></pre>
 						</figure>
+						<a class="btn bg-custom" href="Downloads/COMPONENTS/.html" download>DOWNLOAD FULL CODE</a>
+
 						<h2 id="btn-dropdowns-split">
 							<a aria-label="Anchor link for: btn dropdowns split" class="anchorjs-link" data-anchorjs-icon="" href="#btn-dropdowns-split" style="font-family: anchorjs-icons; font-style: normal; font-variant: normal; font-weight: normal; position: absolute; margin-left: -1em; padding-right: 0.5em;"></a>Split button dropdowns
 						</h2>
@@ -1215,6 +1254,8 @@ Action <span class="nt">&lt;span</span> <span class="na">class=</span><span clas
 <span class="nt">&lt;/ul&gt;</span>
 <span class="nt">&lt;/div&gt;</span></code></pre>
 						</figure>
+						<a class="btn bg-custom" href="Downloads/COMPONENTS/.html" download>DOWNLOAD FULL CODE</a>
+
 						<h2 id="btn-dropdowns-sizing">
 							<a aria-label="Anchor link for: btn dropdowns sizing" class="anchorjs-link" data-anchorjs-icon="" href="#btn-dropdowns-sizing" style="font-family: anchorjs-icons; font-style: normal; font-variant: normal; font-weight: normal; position: absolute; margin-left: -1em; padding-right: 0.5em;"></a>Sizing
 						</h2>
@@ -1317,6 +1358,8 @@ Extra small button <span class="nt">&lt;span</span> <span class="na">class=</spa
 <span class="nt">&lt;/ul&gt;</span>
 <span class="nt">&lt;/div&gt;</span></code></pre>
 						</figure>
+						<a class="btn bg-custom" href="Downloads/COMPONENTS/.html" download>DOWNLOAD FULL CODE</a>
+
 						<h2 id="btn-dropdowns-dropup">
 							<a aria-label="Anchor link for: btn dropdowns dropup" class="anchorjs-link" data-anchorjs-icon="" href="#btn-dropdowns-dropup" style="font-family: anchorjs-icons; font-style: normal; font-variant: normal; font-weight: normal; position: absolute; margin-left: -1em; padding-right: 0.5em;"></a>Dropup variation
 						</h2>
@@ -1378,6 +1421,7 @@ Extra small button <span class="nt">&lt;span</span> <span class="na">class=</spa
 <span class="nt">&lt;/ul&gt;</span>
 <span class="nt">&lt;/div&gt;</span></code></pre>
 						</figure>
+						<a class="btn bg-custom" href="Downloads/COMPONENTS/.html" download>DOWNLOAD FULL CODE</a><br><br><br><br>
 					</div>
 				</div>
 			</div><?php include 'footer.php'; ?> <code class="language-html" data-lang="html">
